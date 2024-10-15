@@ -1,0 +1,23 @@
+{
+  "name": "knowindia",
+  "version": "0.0.0-pre-alpha.0",
+  "description": "know more about India",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuntalojha/knowindia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kuntalojha/knowindia/issues"
+  },
+  "homepage": "https://github.com/kuntalojha/knowindia#readme",
+  "keywords": [
+    "India"
+  ],
+  "author": "Kuntal Ojha",
+  "license": "ISC"
+}
