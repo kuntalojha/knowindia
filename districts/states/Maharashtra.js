@@ -2,41 +2,36 @@ const maharashtra = {
   name: 'Maharashtra',
   capital: 'Mumbai',
   area: '307,713 km²',
-  population: '126,580,000 (2023 est.)',
-  officialLanguages: ['Marathi', 'Hindi', 'English'],
-  literacyRate: '83.1%',
-  stateAnimal: 'Gaur (Indian Bison)',
-  stateBird: 'Blue Jay',
+  population: '125 million (2023 est.)',
+  officialLanguages: ['Marathi'],
+  literacyRate: '82.3%',
+  stateAnimal: 'Indian Giant Squirrel',
+  stateBird: 'Yellow-footed Green Pigeon',
   stateFlower: 'Jarul (Pride of India)',
-  stateTree: 'Ashoka Tree',
+  stateTree: 'Mango',
 
   famousFor: [
+    'Bollywood',
     'Gateway of India',
     'Ajanta and Ellora Caves',
-    'Bollywood',
-    'Marine Drive',
+    'Lavasa City',
   ],
-  festivals: ['Ganesh Chaturthi', 'Diwali', 'Gudi Padwa', 'Makar Sankranti'],
-  cuisine: ['Puran Poli', 'Vada Pav', 'Pav Bhaji', 'Misal Pav'],
+  festivals: ['Ganesh Chaturthi', 'Gudi Padwa', 'Diwali', 'Pola'],
+  cuisine: ['Pav Bhaji', 'Vada Pav', 'Puran Poli', 'Modak'],
 
   touristAttractions: [
     { name: 'Gateway of India', type: 'Historical Monument' },
-    { name: 'Ajanta Caves', type: 'Cave Complex' },
-    { name: 'Marine Drive', type: 'Promenade' },
+    { name: 'Ajanta Caves', type: 'UNESCO World Heritage Site' },
     { name: 'Lonavala', type: 'Hill Station' },
+    { name: 'Shirdi', type: 'Religious Place' },
   ],
 
-  history: `
-    Maharashtra has a rich history, being the birthplace of the Maratha Empire 
-    and the home of notable figures like Chhatrapati Shivaji Maharaj. 
-    The state played a crucial role in India's independence movement and has been 
-    a center for various social and cultural movements in modern India.
-  `,
+  history: `Maharashtra has a significant historical background, with the Maratha Empire led by Chhatrapati Shivaji Maharaj being a prominent part of its heritage. Post-independence, it became a major financial hub of India.`,
 
   interestingFacts: [
-    'Mumbai is the financial capital of India and houses the Bombay Stock Exchange.',
-    'The state has the highest GDP among all Indian states.',
-    'Maharashtra is home to the world-famous Ajanta and Ellora caves, which are UNESCO World Heritage Sites.',
+    'Mumbai is the financial capital of India.',
+    'It houses the film industry hub, Bollywood.',
+    'The state is known for the Lavani dance form.',
   ],
 };
 

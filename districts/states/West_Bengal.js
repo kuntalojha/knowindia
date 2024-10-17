@@ -2,13 +2,13 @@ const westBengal = {
   name: 'West Bengal',
   capital: 'Kolkata',
   area: '88,752 km²',
-  population: '99,609,000 (2023 est.)',
-  officialLanguages: ['Bengali', 'English', 'Nepali'],
-  literacyRate: '77.1%',
+  population: '104 million (2023 est.)',
+  officialLanguages: ['Bengali', 'English'],
+  literacyRate: '77.9%',
   stateAnimal: 'Fishing Cat',
-  stateBird: 'White-breasted Kingfisher',
-  stateFlower: 'Night-flowering Jasmine (Shiuli)',
-  stateTree: 'Devil Tree (Alstonia scholaris)',
+  stateBird: 'White-throated Kingfisher',
+  stateFlower: 'Night-flowering Jasmine',
+  stateTree: 'Devil Tree',
 
   famousFor: [
     'Howrah Bridge',
@@ -16,32 +16,22 @@ const westBengal = {
     'Sundarbans',
     'Darjeeling Tea',
   ],
-  festivals: ['Durga Puja', 'Poila Boishakh', 'Rath Yatra', 'Kali Puja'],
-  cuisine: [
-    'Rasgulla',
-    'Mishti Doi',
-    'Ilish (Hilsa) Fish Curry',
-    'Kosha Mangsho',
-  ],
+  festivals: ['Durga Puja', 'Kali Puja', 'Poush Mela', 'Rath Yatra'],
+  cuisine: ['Roshogolla', 'Macher Jhol', 'Shorshe Ilish', 'Sandesh'],
 
   touristAttractions: [
-    { name: 'Sundarbans National Park', type: 'Wildlife Sanctuary' },
+    { name: 'Sundarbans National Park', type: 'National Park' },
     { name: 'Victoria Memorial', type: 'Historical Monument' },
     { name: 'Darjeeling', type: 'Hill Station' },
-    { name: 'Dakshineswar Kali Temple', type: 'Religious Site' },
+    { name: 'Kalimpong', type: 'Hill Station' },
   ],
 
-  history: `
-    West Bengal has a rich historical legacy, dating back to the Maurya and Gupta empires. 
-    It became a significant center for trade and culture during the Mughal era and 
-    played a pivotal role in the Indian independence movement. 
-    Post-independence, it has evolved into a cultural and intellectual hub in India.
-  `,
+  history: `West Bengal has a rich history with contributions to literature, art, and the freedom movement. It was home to the Bengal Renaissance, with key figures like Rabindranath Tagore and Swami Vivekananda shaping modern India.`,
 
   interestingFacts: [
-    'The Sundarbans is the largest mangrove forest in the world.',
-    'Kolkata was the capital of British India until 1911.',
-    'Durga Puja in Kolkata is recognized by UNESCO as an intangible cultural heritage.',
+    'Home to the largest mangrove forest, Sundarbans.',
+    'The birthplace of Rabindranath Tagore, Asia’s first Nobel laureate.',
+    'Known for its vibrant Durga Puja celebrations.',
   ],
 };
 
