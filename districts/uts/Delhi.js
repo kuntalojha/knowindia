@@ -2,21 +2,32 @@ const delhi = {
   name: 'Delhi',
   capital: 'New Delhi',
   area: '1,484 km²',
-  population: '32,066,000 (2023 est.)',
-  officialLanguages: ['Hindi', 'English'],
+  population: '31.2 million (2023 est.)',
+  officialLanguages: ['Hindi', 'English', 'Punjabi', 'Urdu'],
   literacyRate: '88.7%',
-  famousFor: ['India Gate', 'Red Fort', 'Qutub Minar', 'Chandni Chowk'],
-  stateAnimal: 'Nilgai (Blue bull)',
-  stateBird: 'House Sparrow',
-  festivals: ['Diwali', 'Holi', 'Independence Day', 'Republic Day'],
-  cuisine: ['Chole Bhature', 'Butter Chicken', 'Paranthas', 'Kebabs'],
+  utAnimal: 'Nilgai',
+  utBird: 'House Sparrow',
+  utFlower: 'Alamanda',
+  utTree: 'Jamun Tree',
+
+  famousFor: ['India Gate', 'Red Fort', 'Qutub Minar', 'Lotus Temple'],
+  festivals: ['Diwali', 'Holi', 'Eid', 'Lohri'],
+  cuisine: ['Chole Bhature', 'Paratha', 'Butter Chicken', 'Biryani'],
+
   touristAttractions: [
-    { name: "Humayun's Tomb", type: 'Historical' },
-    { name: 'Lotus Temple', type: 'Spiritual' },
-    { name: 'Akshardham Temple', type: 'Cultural' },
+    { name: 'Red Fort', type: 'Historical Monument' },
+    { name: 'Qutub Minar', type: 'Monument' },
+    { name: 'India Gate', type: 'War Memorial' },
+    { name: 'Lotus Temple', type: 'Temple' },
   ],
-  history:
-    'Delhi has a rich history spanning several centuries, including the reign of the Mughals, British colonial rule, and its role as India’s capital since independence.',
+
+  history: `Delhi has a storied history, serving as the seat of several empires over centuries. It was founded by the Pandavas in ancient times and later saw rule by the Mughals, British, and eventually became India's capital post-independence.`,
+
+  interestingFacts: [
+    'Delhi is the second most populous city in India.',
+    'It houses the President’s residence, Rashtrapati Bhavan.',
+    'Chandni Chowk is one of the oldest and busiest markets in India.',
+  ],
 };
 
 export default delhi;
