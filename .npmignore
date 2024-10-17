@@ -1,6 +1,29 @@
-*.md
-!README.md
-tests
-.git
-.github
+# Here is the npmignore file.
+# You can ignore files and folders in this file.
+
+# For ignoring tests folder
+tests/
+
+# For ignoring test.test.js files
 test.test.js
+
+# For ignoring node_modules folder
+node_modules/
+
+# For ignoring .npmignore files
+.npmignore
+
+# For ignoring .git folder
+.git/
+
+# For ignoring .github folder
+.github/
+
+# For ignoring .gitignore file
+.gitignore
+
+# For ignoring .md files 
+*.md
+
+# For ignoring README.md
+!README.md
