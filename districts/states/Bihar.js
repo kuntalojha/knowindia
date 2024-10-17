@@ -36,4 +36,3 @@ const bihar = {
 };
 
 export default bihar;
-sss;
