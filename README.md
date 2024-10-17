@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/knowindia.svg)](https://www.npmjs.com/package/knowindia)
 ![License](https://img.shields.io/npm/l/knowindia.svg)
 ![Downloads](https://img.shields.io/npm/dt/knowindia.svg)
+![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/knowindia)
 
 ## Overview
 
