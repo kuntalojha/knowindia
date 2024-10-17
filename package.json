@@ -1,6 +1,6 @@
 {
   "name": "knowindia",
-  "version": "0.0.0-pre-alpha.2",
+  "version": "0.0.0-alpha.2",
   "description": "know more about India",
   "main": "index.js",
   "type": "module",
