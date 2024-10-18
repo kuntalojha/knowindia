@@ -5,7 +5,36 @@ import states from '../districts/states.js';
 describe('Indian States Data Validation', () => {
   // Test for checking the presence of all state keys
   test('should contain all state keys', () => {
-    const expectedStateKeys = ['KA', 'TN', 'MH', 'WB', 'UP', 'RJ']; // Add more as needed
+    const expectedStateKeys = [
+      'AP',
+      'AR',
+      'AS',
+      'BR',
+      'CG',
+      'GA',
+      'GJ',
+      'HR',
+      'HP',
+      'JH',
+      'KA',
+      'KL',
+      'MP',
+      'MH',
+      'MN',
+      'ML',
+      'MZ',
+      'NL',
+      'OD',
+      'PB',
+      'RJ',
+      'SK',
+      'TN',
+      'TG',
+      'TR',
+      'UP',
+      'UK',
+      'WB',
+    ]; 
     expectedStateKeys.forEach((key) => {
       expect(states).toHaveProperty(key);
     });
