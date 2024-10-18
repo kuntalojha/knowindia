@@ -1,8 +1,6 @@
 import { expect, test } from 'vitest';
 import states from '../districts/states.js';
 
-const states = states;
-
 // Test cases
 describe('Indian States Data Validation', () => {
   // Test for checking the presence of all state keys
