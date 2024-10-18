@@ -1,6 +1,9 @@
 # This file allows you to control which files are ignored by git
 # For more information see https://git-scm.com/docs/gitignore
+
+# For ignoring test.test.js files
 test.test.js
+
 # Logs
 logs
 *.log

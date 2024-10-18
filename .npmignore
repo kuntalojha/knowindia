@@ -1,8 +1,17 @@
 # Here is the npmignore file.
 # You can ignore files and folders in this file.
 
+# For package-lock.json file.
+package-lock.json
+
+# For all log files
+*.log
+
 # For ignoring tests folder
 tests/
+
+# For ignoring vitest.config.js
+vitest.config.js
 
 # For ignoring test.test.js files
 test.test.js
