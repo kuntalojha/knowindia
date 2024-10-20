@@ -3,7 +3,7 @@ const statesData = require('./districts/states.js');
 const IndiaData = require('./India.js');
 
 const states = () => {
-  return statesData;
+  return statesData.states;
 };
 
 const uts = () => {
@@ -15,7 +15,7 @@ const INDIA = () => {
 };
 
 const India = () => {
-  return IndiaData;
+  return IndiaData.India;
 };
 
 module.exports = { states, uts, India, INDIA };

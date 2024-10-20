@@ -1,6 +1,4 @@
-const { expect, test, describe } = require('vitest');
 const uts = require('../districts/uts.js');
-
 const unionTerritories = uts.uts;
 
 // Test cases

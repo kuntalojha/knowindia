@@ -28,5 +28,8 @@
     "UT codes"
   ],
   "author": "Kuntal Ojha",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

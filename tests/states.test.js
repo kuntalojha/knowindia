@@ -1,6 +1,5 @@
-const { expect, test, describe } = require('vitest');
-const states = require('../districts/states.js');
-
+const statesData = require('../districts/states.js'); // Adjust the path as necessary
+const states = statesData.states;
 // Test cases
 describe('Indian States Data Validation', () => {
   // Test for checking the presence of all state keys
@@ -40,7 +39,7 @@ describe('Indian States Data Validation', () => {
     });
   });
 
-  // Test for ensuring each state has a valid name, capital, area, and population structure
+  // Test for ensuring each state has valid name, capital, area, and population structure
   test('should have valid name, capital, area, and population for each state', () => {
     Object.values(states).forEach((state) => {
       expect(state).toHaveProperty('name');
@@ -52,9 +51,8 @@ describe('Indian States Data Validation', () => {
       expect(state).toHaveProperty('area');
       expect(typeof state.area).toBe('string');
 
-      // Uncomment this to include population test
       // expect(state).toHaveProperty('population');
-      // expect(state.population).toMatch(/\d+ \(\d{4} est.\)$/);
+      // expect(state.population).toMatch(/\d+ \(\d{4} est.\)$/); // Uncomment to include population test
     });
   });
 
@@ -69,6 +67,7 @@ describe('Indian States Data Validation', () => {
   // Test for literacy rate to be a valid percentage string
   test('should have valid literacy rate ending with %', () => {
     Object.values(states).forEach((state) => {
+      expect(state).toHaveProperty('literacyRate');
       expect(state.literacyRate).toMatch(/^\d+(\.\d+)?%$/);
     });
   });
@@ -98,6 +97,12 @@ describe('Indian States Data Validation', () => {
   test('should have an array of tourist attractions', () => {
     Object.values(states).forEach((state) => {
       expect(Array.isArray(state.touristAttractions)).toBe(true);
+      state.touristAttractions.forEach((attraction) => {
+        expect(attraction).toHaveProperty('name');
+        expect(typeof attraction.name).toBe('string');
+        expect(attraction).toHaveProperty('type');
+        expect(typeof attraction.type).toBe('string');
+      });
     });
   });
 
@@ -113,8 +118,7 @@ describe('Indian States Data Validation', () => {
   });
 });
 
-// import { expect, test } from 'vitest';
-// import states from '../districts/states.js';
+// const states = require('../districts/states.js');
 
 // // Test cases
 // describe('Indian States Data Validation', () => {
@@ -167,6 +171,7 @@ describe('Indian States Data Validation', () => {
 //       expect(state).toHaveProperty('area');
 //       expect(typeof state.area).toBe('string');
 
+//       // Uncomment this to include population test
 //       // expect(state).toHaveProperty('population');
 //       // expect(state.population).toMatch(/\d+ \(\d{4} est.\)$/);
 //     });
@@ -208,7 +213,7 @@ describe('Indian States Data Validation', () => {
 //     });
 //   });
 
-//   // Test for touristAttractions array
+//   // Test for tourist attractions array
 //   test('should have an array of tourist attractions', () => {
 //     Object.values(states).forEach((state) => {
 //       expect(Array.isArray(state.touristAttractions)).toBe(true);
