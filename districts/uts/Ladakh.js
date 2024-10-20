@@ -40,4 +40,5 @@ const ladakh = {
   ],
 };
 
-export default ladakh;
+module.exports = ladakh;
+// export default ladakh;

@@ -30,4 +30,5 @@ const delhi = {
   ],
 };
 
-export default delhi;
+module.exports = delhi;
+// export default delhi;

@@ -30,4 +30,5 @@ const chandigarh = {
   ],
 };
 
-export default chandigarh;
+module.exports = chandigarh;
+// export default chandigarh;

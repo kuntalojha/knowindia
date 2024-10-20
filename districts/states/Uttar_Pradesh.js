@@ -30,4 +30,5 @@ const uttarPradesh = {
   ],
 };
 
-export default uttarPradesh;
+module.exports = uttarPradesh;
+// export default uttarPradesh;

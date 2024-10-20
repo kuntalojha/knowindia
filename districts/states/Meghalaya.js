@@ -35,4 +35,5 @@ const meghalaya = {
   ],
 };
 
-export default meghalaya;
+module.exports = meghalaya;
+// export default meghalaya;

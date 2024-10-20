@@ -40,4 +40,5 @@ const madhyaPradesh = {
   ],
 };
 
-export default madhyaPradesh;
+module.exports = madhyaPradesh;
+// export default madhyaPradesh;

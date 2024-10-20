@@ -35,4 +35,5 @@ const rajasthan = {
   ],
 };
 
-export default rajasthan;
+module.exports = rajasthan;
+// export default rajasthan;

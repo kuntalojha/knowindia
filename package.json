@@ -1,11 +1,10 @@
 {
   "name": "knowindia",
-  "version": "0.0.0-alpha.2",
+  "version": "0.0.0-alpha.3",
   "description": "know more about India",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,11 +15,18 @@
   },
   "homepage": "https://github.com/kuntalojha/knowindia#readme",
   "keywords": [
-    "India"
+    "India",
+    "Indian states",
+    "union territories",
+    "state information",
+    "UT information",
+    "India data",
+    "Indian geography",
+    "states of India",
+    "Indian regions",
+    "state codes",
+    "UT codes"
   ],
   "author": "Kuntal Ojha",
-  "license": "ISC",
-  "devDependencies": {
-    "vitest": "^2.1.3"
-  }
+  "license": "ISC"
 }

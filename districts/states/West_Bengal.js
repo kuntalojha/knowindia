@@ -35,4 +35,5 @@ const westBengal = {
   ],
 };
 
-export default westBengal;
+module.exports = westBengal;
+// export default westBengal;

@@ -39,4 +39,5 @@ const andamanNicobarIslands = {
   ],
 };
 
-export default andamanNicobarIslands;
+module.exports = andamanNicobarIslands;
+// export default andamanNicobarIslands;

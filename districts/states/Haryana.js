@@ -35,4 +35,5 @@ const haryana = {
   ],
 };
 
-export default haryana;
+module.exports = haryana;
+// export default haryana;

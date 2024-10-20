@@ -30,4 +30,5 @@ const andhraPradesh = {
   ],
 };
 
-export default andhraPradesh;
+module.exports = andhraPradesh ;
+// export default andhraPradesh;

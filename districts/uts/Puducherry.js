@@ -40,4 +40,5 @@ const puducherry = {
   ],
 };
 
-export default puducherry;
+module.exports = puducherry;
+// export default puducherry;

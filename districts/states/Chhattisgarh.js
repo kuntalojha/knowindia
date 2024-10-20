@@ -35,4 +35,5 @@ const chhattisgarh = {
   ],
 };
 
-export default chhattisgarh;
+module.exports = chhattisgarh;
+// export default chhattisgarh;

@@ -35,4 +35,5 @@ const gujarat = {
   ],
 };
 
-export default gujarat;
+module.exports = gujarat;
+// export default gujarat;

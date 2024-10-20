@@ -35,4 +35,5 @@ const telangana = {
   ],
 };
 
-export default telangana;
+module.exports = telangana;
+// export default telangana;

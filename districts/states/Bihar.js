@@ -35,4 +35,5 @@ const bihar = {
   ],
 };
 
-export default bihar;
+module.exports = bihar;
+// export default bihar;

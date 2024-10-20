@@ -35,4 +35,5 @@ const dadraNagarHaveliDamanDiu = {
   ],
 };
 
-export default dadraNagarHaveliDamanDiu;
+module.exports =  dadraNagarHaveliDamanDiu ;
+// export default dadraNagarHaveliDamanDiu;

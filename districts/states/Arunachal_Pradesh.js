@@ -35,4 +35,5 @@ const arunachalPradesh = {
   ],
 };
 
-export default arunachalPradesh;
+module.exports =  arunachalPradesh ;
+// export default arunachalPradesh;

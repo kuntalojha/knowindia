@@ -35,4 +35,5 @@ const uttarakhand = {
   ],
 };
 
-export default uttarakhand;
+module.exports = uttarakhand;
+// export default uttarakhand;

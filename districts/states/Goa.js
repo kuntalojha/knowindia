@@ -35,4 +35,5 @@ const goa = {
   ],
 };
 
-export default goa;
+module.exports = goa;
+// export default goa;

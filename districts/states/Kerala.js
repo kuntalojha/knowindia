@@ -30,4 +30,5 @@ const kerala = {
   ],
 };
 
-export default kerala;
+module.exports = kerala;
+// export default kerala;

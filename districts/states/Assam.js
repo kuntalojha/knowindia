@@ -30,4 +30,5 @@ const assam = {
   ],
 };
 
-export default assam;
+module.exports = assam;
+// export default assam;

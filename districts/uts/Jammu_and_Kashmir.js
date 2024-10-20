@@ -30,4 +30,5 @@ const jammuKashmir = {
   ],
 };
 
-export default jammuKashmir;
+module.exports = jammuKashmir;
+// export default jammuKashmir;

@@ -40,4 +40,5 @@ const nagaland = {
   ],
 };
 
-export default nagaland;
+module.exports = nagaland;
+// export default nagaland;

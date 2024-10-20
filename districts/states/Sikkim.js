@@ -35,4 +35,5 @@ const sikkim = {
   ],
 };
 
-export default sikkim;
+module.exports = sikkim;
+// export default sikkim;

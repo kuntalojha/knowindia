@@ -35,4 +35,5 @@ const maharashtra = {
   ],
 };
 
-export default maharashtra;
+module.exports = maharashtra;
+// export default maharashtra;

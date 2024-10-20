@@ -35,4 +35,5 @@ const odisha = {
   ],
 };
 
-export default odisha;
+module.exports = odisha;
+// export default odisha;

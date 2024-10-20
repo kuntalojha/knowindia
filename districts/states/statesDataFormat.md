@@ -37,5 +37,6 @@ const stateName = {
   interestingFacts: ['lorem ipsum', 'lorem ipsum.', 'lorem ipsum.'],
 };
 
-export default stateName;
+module.exports = stateName;
+// export default stateName;
 ```

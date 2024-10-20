@@ -35,4 +35,5 @@ const jharkhand = {
   ],
 };
 
-export default jharkhand;
+module.exports = jharkhand;
+// export default jharkhand;

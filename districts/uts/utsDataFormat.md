@@ -37,5 +37,6 @@ const utName = {
   interestingFacts: ['lorem ipsum', 'lorem ipsum.', 'lorem ipsum.'],
 };
 
-export default utName;
+module.exports = utName;
+// export default utName;
 ```

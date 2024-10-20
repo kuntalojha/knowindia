@@ -30,4 +30,5 @@ const lakshadweep = {
   ],
 };
 
-export default lakshadweep;
+module.exports = lakshadweep;
+// export default lakshadweep;

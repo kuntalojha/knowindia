@@ -35,4 +35,5 @@ const tamilNadu = {
   ],
 };
 
-export default tamilNadu;
+module.exports = tamilNadu;
+// export default tamilNadu;

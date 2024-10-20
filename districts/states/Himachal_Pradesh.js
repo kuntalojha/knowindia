@@ -35,4 +35,5 @@ const himachalPradesh = {
   ],
 };
 
-export default himachalPradesh;
+module.exports = himachalPradesh;
+// export default himachalPradesh;

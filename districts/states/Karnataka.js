@@ -35,4 +35,5 @@ const karnataka = {
   ],
 };
 
-export default karnataka;
+module.exports = karnataka;
+// export default karnataka;

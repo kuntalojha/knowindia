@@ -35,4 +35,5 @@ const manipur = {
   ],
 };
 
-export default manipur;
+module.exports = manipur;
+// export default manipur;

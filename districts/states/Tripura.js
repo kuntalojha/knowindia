@@ -35,4 +35,5 @@ const tripura = {
   ],
 };
 
-export default tripura;
+module.exports = tripura;
+// export default tripura;

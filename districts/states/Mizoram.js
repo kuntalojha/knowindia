@@ -35,4 +35,5 @@ const mizoram = {
   ],
 };
 
-export default mizoram;
+module.exports = mizoram;
+// export default mizoram;

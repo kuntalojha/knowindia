@@ -35,4 +35,5 @@ const punjab = {
   ],
 };
 
-export default punjab;
+module.exports = punjab;
+// export default punjab;
