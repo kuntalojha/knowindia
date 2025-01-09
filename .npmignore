@@ -34,5 +34,8 @@ node_modules/
 # For ignoring .md files 
 *.md
 
+# For ignoreing .pdf files
+*.pdf
+
 # For ignoring README.md
 !README.md
